@@ -1,0 +1,20 @@
+{
+  "alunos": [
+    { "id": 1, "nome": "Ana", "apelido": "Silva", "idCurso": 1, "anoCurricular": 1 },
+    { "id": 2, "nome": "Bruno", "apelido": "Costa", "idCurso": 1, "anoCurricular": 2 },
+    { "id": 3, "nome": "Carlota", "apelido": "Ferreira", "idCurso": 2, "anoCurricular": 1 },
+    { "id": 4, "nome": "Diogo", "apelido": "Martins", "idCurso": 2, "anoCurricular": 3 },
+    { "id": 5, "nome": "Eva", "apelido": "Rodrigues", "idCurso": 3, "anoCurricular": 2 },
+    { "id": 6, "nome": "Francisco", "apelido": "Pereira", "idCurso": 3, "anoCurricular": 1 },
+    { "id": 7, "nome": "Gabriela", "apelido": "Sousa", "idCurso": 4, "anoCurricular": 2 },
+    { "id": 8, "nome": "Henrique", "apelido": "Almeida", "idCurso": 1, "anoCurricular": 3 },
+    { "id": 9, "nome": "Ines", "apelido": "Carvalho", "idCurso": 2, "anoCurricular": 1 },
+    { "id": 10, "nome": "Joao", "apelido": "Fernandes", "idCurso": 4, "anoCurricular": 1 }
+  ],
+  "cursos": [
+    { "id": 1, "nomeDoCurso": "Engenharia Informatica" },
+    { "id": 2, "nomeDoCurso": "Gestao" },
+    { "id": 3, "nomeDoCurso": "Design de Comunicacao" },
+    { "id": 4, "nomeDoCurso": "Enfermagem" }
+  ]
+}
