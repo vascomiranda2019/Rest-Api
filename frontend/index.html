@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestao de Alunos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gestao de Alunos</h1>
+
+  <h3 id="form-titulo">Adicionar aluno</h3>
+  <form id="form-aluno">
+    <input type="hidden" id="aluno-id">
+    <input id="nome" placeholder="Nome" required>
+    <input id="apelido" placeholder="Apelido" required>
+    <select id="idCurso" required></select>
+    <input type="number" id="anoCurricular" placeholder="Ano" min="1" max="5" required>
+    <button type="submit">Guardar</button>
+    <button type="button" id="btn-cancelar" hidden>Cancelar</button>
+  </form>
+
+  <h3>Lista de alunos</h3>
+  <table>
+    <tr>
+      <th>Nome</th><th>Apelido</th><th>Curso</th><th>Ano</th><th>Acoes</th>
+    </tr>
+    <tbody id="corpo-tabela"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
