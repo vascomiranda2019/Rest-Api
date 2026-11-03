@@ -2,7 +2,7 @@
 //   json-server:     "http://localhost:3001"
 //   API Express:     "http://localhost:3000/api"
 //   Render (deploy): "https://a-tua-api.onrender.com/api"
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://rest-api-vasco.onrender.com/api";
 
 const form = document.getElementById("form-aluno");
 const inputId = document.getElementById("aluno-id");
