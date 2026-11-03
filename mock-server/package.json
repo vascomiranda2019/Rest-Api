@@ -1,0 +1,11 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "API simulada com JSON-Server para o trabalho de APIs RESTful",
+  "scripts": {
+    "start": "json-server --watch ../mock-data/bd.json --port 3001 --static ../frontend"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
